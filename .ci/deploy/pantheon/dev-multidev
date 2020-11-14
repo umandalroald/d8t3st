@@ -16,11 +16,9 @@ composer run prepare-for-pantheon
 
 if [[ $CI_BRANCH != $DEFAULT_BRANCH ]]
 then
-  terminus -n drush "$TERMINUS_SITE.$TERMINUS_ENV" -- config:export -y
   # Create a new multidev environment (or push to an existing one)
   terminus -n build:env:create "$TERMINUS_SITE.dev" "$TERMINUS_ENV" --yes
 else
-  terminus -n drush "$TERMINUS_SITE.$TERMINUS_ENV" -- config:export -y
   # Push to the dev environment
   terminus -n build:env:push "$TERMINUS_SITE.dev" --yes
 fi
