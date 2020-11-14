@@ -17,6 +17,7 @@
         "php": ">=7.3",
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
+        "drupal/commerce_shipping": "^2.0@RC",
         "drupal/core-composer-scaffold": "^8.8.1",
         "drupal/core-recommended": "^8.8",
         "drupalcommerce/commerce_base": "dev-8.x-1.x",
