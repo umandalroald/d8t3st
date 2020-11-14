@@ -1,0 +1,14 @@
+uuid: 95b5fe83-bf1f-46ef-8ea3-047da82cc3a3
+name: d8t3st
+mail: roald@pantheon.io
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
